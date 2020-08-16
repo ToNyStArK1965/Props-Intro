@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div>
       <h2>{props.name}</h2>
-      <img height="450" width="350" src={props.img} alt="Alt-img" />
+      <img height="400" width="350" src={props.img} alt="Alt-img" />
       <p> {props.tel} </p>
       <p> {props.email} </p>
     </div>
@@ -17,7 +17,7 @@ ReactDOM.render(
     <h1>My Contacts</h1>
     <Card
       name="Patil"
-      img="https://scontent.fblr1-5.fna.fbcdn.net/v/t1.0-9/31676633_2045921575730230_1809535486344036352_n.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=HfdSKBz1M4UAX83yi7p&_nc_ht=scontent.fblr1-5.fna&oh=dbe709956bdb9aa3ba67e914637e2a1f&oe=5F5F0D8D"
+      img="https://scontent.fblr1-5.fna.fbcdn.net/v/t31.0-8/16804234_1784026355253088_8848093345585004516_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=pCQbg_qiKWAAX-gyoAM&_nc_ht=scontent.fblr1-5.fna&oh=4a85f37d1aaf9ccee19eac215ad14af9&oe=5F5E9C00"
       tel="+123 456 789"
       email="b@beyonce.com"
     />
